@@ -7,7 +7,7 @@ import java.awt.*;
 public class ManajemenNilaiSiswaApp extends JFrame {
 
     private JTextField tfNama, tfNilai;
-    private JComboBox<String> cbMatkul;g,
+    private JComboBox<String> cbMatkul;
 
     private JTable tableData;
     private DefaultTableModel tableModel;
