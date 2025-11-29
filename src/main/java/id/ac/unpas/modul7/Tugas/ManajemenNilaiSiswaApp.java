@@ -40,7 +40,7 @@ public class ManajemenNilaiSiswaApp extends JFrame {
                 "Matematika Dasar", "Bahasa Indonesia", "Algoritma & Pemograman I", "Praktikum Pemograman 2"        });
 
         JButton btnSimpan = new JButton("Simpan Data");
-        JButton btnReset = new JButton("Reset"); // Tugas: Tambah tombol reset
+        JButton btnReset = new JButton("Reset"); // Tambah tombol reset
 
         btnSimpan.addActionListener(e -> prosesSimpan());
         btnReset.addActionListener(e -> resetInput()); // fungsi reset
