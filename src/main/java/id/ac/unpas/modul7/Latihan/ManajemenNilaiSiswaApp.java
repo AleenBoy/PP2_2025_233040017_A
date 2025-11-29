@@ -114,7 +114,6 @@ public class ManajemenNilaiSiswaApp extends JFrame {
             return;
         }
 
-        // Grade masih versi sederhana (belum switch-case, sesuai latihan)
         String grade = "";
         if (nilai >= 90) grade = "A";
         else if (nilai >= 80) grade = "B";
